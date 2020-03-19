@@ -1,0 +1,18 @@
+#Server Configuration
+server:
+  port: 8080
+spring:
+    datasource:
+        url: jdbc:oracle:thin:@localhost:1521:orcl
+        username: dblab
+        password: 123456
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+    jpa:
+        show-sql: true
+        hibernate: 
+            ddl-auto: update
+# JPA-Hibernate
+            naming:
+              strategy: org.hibernate.cfg.ImprovedNamingStrategy
+              implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+              physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
