@@ -22,13 +22,6 @@ import promn.endpoint.dto.common.ResponseData;
 import promn.endpoint.dto.common.Result;
 import promn.service.ClassService;
 
-/**
- * @author ThinhLH
- * @created 05/03/2019
- * 
- * @modified 05/03/2019
- * @modifier
- */
 @Controller
 @RequestMapping("/8888group/classes")
 public class ClassResource {

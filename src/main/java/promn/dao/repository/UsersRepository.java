@@ -6,13 +6,6 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import promn.dao.model.User;
 
-/**
- * @author ThinhLH
- * @created 09/05/2019
- * 
- * @modified 
- * @modifier 
- */
 public interface UsersRepository extends JpaRepository<User, Integer>, JpaSpecificationExecutor<User> {
 	
 	Page<User> findByOrderByIdDesc(Pageable pageable);

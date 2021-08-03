@@ -7,13 +7,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import promn.dao.model.Teacher;
 
-/**
- * @author ThinhLH
- * @created 09/05/2019
- * 
- * @modified 
- * @modifier 
- */
+
 public interface TeacherRepository extends JpaRepository<Teacher, Integer>, JpaSpecificationExecutor<Teacher> {
 	
 	Page<Teacher> findByOrderByIdDesc(Pageable pageable);

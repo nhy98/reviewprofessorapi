@@ -9,13 +9,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import promn.dao.model.Subject;
 
-/**
- * @author ThinhLH
- * @created 09/05/2019
- * 
- * @modified 
- * @modifier 
- */
+
 public interface SubjectRepository extends JpaRepository<Subject, Integer>, JpaSpecificationExecutor<Subject> {
 	
 	Page<Subject> findByOrderByIdDesc(Pageable pageable);

@@ -8,13 +8,7 @@ import org.springframework.data.domain.Pageable;
 import promn.dao.model.Clazz;
 import promn.endpoint.dto.common.Result;
 
-/**
- * @author ThinhLH
- * @created 05/03/2019
- * 
- * @modified 05/03/2019
- * @modifier
- */
+
 
 public interface ClassService {
 

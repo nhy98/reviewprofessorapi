@@ -22,13 +22,6 @@ import promn.endpoint.dto.common.ResponseData;
 import promn.endpoint.dto.common.Result;
 import promn.service.TeacherService;
 
-/**
- * @author ThinhLH
- * @created 05/03/2019
- * 
- * @modified 05/03/2019
- * @modifier
- */
 @Controller
 @RequestMapping("/8888group/teachers")
 public class TeacherResource {

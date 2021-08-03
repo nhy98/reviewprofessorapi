@@ -7,13 +7,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import promn.dao.model.Review;
 
-/**
- * @author ThinhLH
- * @created 09/05/2019
- * 
- * @modified 
- * @modifier 
- */
+
 public interface ReviewRepository extends JpaRepository<Review, Integer>, JpaSpecificationExecutor<Review> {
 	
 	Page<Review> findByOrderByIdDesc(Pageable pageable);

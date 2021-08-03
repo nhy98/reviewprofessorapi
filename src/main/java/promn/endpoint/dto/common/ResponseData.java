@@ -9,13 +9,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/**
- * Response data form
- * 
- * @author LongTT
- *
- * @param <T>
- */
 
 @Getter
 @Setter

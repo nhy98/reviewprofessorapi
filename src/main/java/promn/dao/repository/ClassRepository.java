@@ -7,13 +7,6 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import promn.dao.model.Clazz;
 
-/**
- * @author ThinhLH
- * @created 09/05/2019
- * 
- * @modified 
- * @modifier 
- */
 public interface ClassRepository extends JpaRepository<Clazz, Integer>, JpaSpecificationExecutor<Clazz> {
 	
 	Page<Clazz> findByOrderByIdDesc(Pageable pageable);
